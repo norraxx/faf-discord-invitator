@@ -1,1 +1,7 @@
-DISCORD_TOKEN = "NzE5MTg3NDExOTc5OTkzMTQ4.XtzxvQ.7YEsFmke0SC1uPyglOlAjofKsNE"
+import os
+
+from dotenv import load_dotenv
+load_dotenv()
+
+DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
+DISCORD_GUILD = os.getenv("DISCORD_GUILD")

@@ -1,5 +1,5 @@
 import config
-from discord_connector import bot
+from discord_connector import client
 
 
 # 1. connect to discord
